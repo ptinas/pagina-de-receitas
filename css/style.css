@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  font-family: "Alice", serif;
+}
+
+body {
+  background: url(/assets/bg-image.png) no-repeat;
+  background-color: #573824;
+}
+
+#container {
+  width: 800px;
+  height: 1140px;
+  margin: auto;
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  padding: 24px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#container img {
+  width: 752px;
+  height: 400px;
+  padding-bottom: 24px;
+}
+
+#container h1 {
+  font-size: 40px;
+  line-height: 140%;
+  color: #291b1a;
+}
+
+#container p,
+li {
+  font-size: 16px;
+  line-height: 150%;
+  color: #573a37;
+}
+
+footer,
+a {
+  color: #f0e8c2;
+  text-decoration: none;
+}
